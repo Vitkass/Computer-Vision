@@ -59,28 +59,6 @@ cv2.imshow('name.png', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 '''
-u = 'sjdnjsd sjdnjsd jsdnjs'
-t = [1, 3, 4]
-
-class Zalupa:
-
-    def __init__(self, photo_path) -> None:
-        self.photo = photo_path
-        self.out_path = '../result/' + self.photo.split('/')[-1]
-
-    def change(self, name):
-        self.photo = name
-        self.out_path = '../result/' + self.photo.split('/')[-1]
-        
-
-
-
-t = Zalupa('../photos/tt.jpg')
-t.change('../photos/pp.lp')
-
-
-print(t.photo)
-print(t.out_path)
 
 
 
