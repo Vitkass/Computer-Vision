@@ -229,7 +229,7 @@ class PhotoReadactor:
                 cv2.imwrite(self.out_path, image)
 
     
-    # Изменение размера изображения
+    # Изменение размера
     def resize(self):
         image = cv2.imread(self.photo)
 
